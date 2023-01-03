@@ -1,6 +1,6 @@
-import * as React from "react"
-import { CartesianCoordinates, FunctionGraph, Line, Mafs, Point, Theme, useMovablePoint, useStopwatch, Vector2, vec } from "mafs"
-import { easeInOutCubic } from "js-easing-functions"
+import * as React from "react";
+import { CartesianCoordinates, FunctionGraph, Line, Mafs, Point, Theme, useMovablePoint, useStopwatch, Vector2, vec } from "mafs";
+import { easeInOutCubic } from "js-easing-functions";
 
 function xyFromBernsteinPolynomial(
     p1: Vector2,
