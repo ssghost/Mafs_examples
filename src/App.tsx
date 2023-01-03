@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import BezierCurves from './Bezier';
+import RiemannSum from './Riemann';
+import {Mafs} from 'mafs';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    return (
+        <div className="App">
+            <h1>Bezier Curves</h1>
+            <Mafs>
+                <BezierCurves />
+            </Mafs>
+            <h1>Riemann Sum</h1>
+            <Mafs>
+                <RiemannSum />  
+            </Mafs> 
+        </div>
+    );
+};
 
 export default App;
